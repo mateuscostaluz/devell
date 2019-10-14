@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model backend\models\ResultadoMensal */
 
 $this->title = 'Create Resultado Mensal';
-$this->params['breadcrumbs'][] = ['label' => 'Resultado Mensals', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Resultado Mensal', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="resultado-mensal-create">
