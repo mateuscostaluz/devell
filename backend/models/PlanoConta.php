@@ -33,7 +33,7 @@ class PlanoConta extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['nome', 'idPai', 'idCliente'], 'required'],
+            [['nome', 'idCliente'], 'required'],
             [['idPai', 'idCliente'], 'integer'],
             [['nome'], 'string', 'max' => 120],
             [['idCliente'], 'exist', 'skipOnError' => true, 'targetClass' => Cliente::className(), 'targetAttribute' => ['idCliente' => 'id']],

@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model backend\models\Retencao */
 
 $this->title = 'Create Retencao';
-$this->params['breadcrumbs'][] = ['label' => 'Retencaos', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Retencoes', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="retencao-create">

@@ -12,13 +12,9 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'idPerfil')->textInput() ?>
-
     <?= $form->field($model, 'nome')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'idFirebase')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'authKey')->textInput(['maxlength' => true]) ?>
 

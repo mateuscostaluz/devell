@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel backend\models\AssociacaoSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Associacaos';
+$this->title = 'Associacoes';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="associacao-index">

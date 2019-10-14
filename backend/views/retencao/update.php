@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model backend\models\Retencao */
 
 $this->title = 'Update Retencao: ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Retencaos', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Retencoes', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>

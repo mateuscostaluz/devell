@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model backend\models\Associacao */
 
 $this->title = 'Create Associacao';
-$this->params['breadcrumbs'][] = ['label' => 'Associacaos', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Associacoes', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="associacao-create">
